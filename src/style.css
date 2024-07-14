@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('photo-1626169629896-aa4215b51290.avif');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+}
+h2{
+    font-size: 3rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.date>h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.date>span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.date{
+    gap:0.5rem;
+}
+
